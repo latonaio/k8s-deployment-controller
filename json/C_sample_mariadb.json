@@ -1,0 +1,40 @@
+{
+    "connections": {
+        "default": {
+            "outputDataPath": "/var/lib/aion/Data/sample-microservice_1",
+            "metadata": {
+                "priorDeviceName": "sirius",
+                "microserviceName": "mariadb",
+                "projectCommitId": "9354fe20655cd15729f3448f9a98c3b2026d485b",
+                "dockerTag": "latest",
+                "ip": "192.168.128.176",
+                "port": "31112",
+                "deviceName": "vega",
+                "projectName": "PRJ",
+                "containerPort": "3306",
+                "nodePort": "30000",
+                "env": {
+                    "MYSQL_ROOT_PASSWORD": "root",
+                    "MYSQL_USER": "latona",
+                    "MYSQL_PASSWORD": "latonalatona"
+                },
+                "volumeMounts": {
+                    "mysql-persistent-storage": "/var/lib/mysql",
+                    "initdb": "/docker-entrypoint-initdb.d"
+                },
+                "volumes": {
+                    "mysql-persistent-storage": {
+                        "type": "persistentVolumeClaim",
+                        "path": "/mnt/mysql_data",
+                        "storage": "2Gi"
+                    },
+                    "initdb": {
+                        "type": "hostPath",
+                        "path": "/mnt/mysql_init"
+                    }
+                }
+            },
+            "deviceName": "vega"
+        }
+    }
+}

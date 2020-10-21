@@ -1,0 +1,18 @@
+{
+    "connections": {
+        "default": {
+            "outputDataPath": "/var/lib/aion/Data/sample-microservice_1",
+            "metadata": {
+                "priorDeviceName": "vega",
+                "microserviceName": "nginx",
+                "projectCommitId": "9354fe20655cd15729f3448f9a98c3b2026d485b",
+                "dockerTag": "latest",
+                "ip": "192.168.128.174",
+                "port": "31112",
+                "deviceName": "sirius",
+                "projectName": "PRJ"
+            },
+            "deviceName": "sirius"
+        }
+    }
+}
