@@ -19,6 +19,7 @@ k8s-deployment-controller は、aion-core のプラットフォーム上での�
    ```
 2. 本マイクロサービスがクローンされているディレクトリ直下で、下記コマンドを実行し、イメージをビルドする。
    ```
+   cd PATH/TO/k8s-deployment-controller
    sh docker-build.sh
    ```
 
