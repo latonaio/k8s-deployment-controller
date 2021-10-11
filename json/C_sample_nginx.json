@@ -5,9 +5,9 @@
             "metadata": {
                 "priorDeviceName": "vega",
                 "microserviceName": "nginx",
-                "projectCommitId": "9354fe20655cd15729f3448f9a98c3b2026d485b",
+                "projectCommitId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "dockerTag": "latest",
-                "ip": "192.168.128.174",
+                "ip": "192.168.XXX.XXX",
                 "port": "31112",
                 "deviceName": "sirius",
                 "projectName": "PRJ"
