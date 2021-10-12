@@ -2,11 +2,11 @@
 
 ## 概要
 
-k8s-deployment-controller は、異なる端末間で、（複数の）マイクロサービスのデプロイを制御できるようにするマイクロサービスです。
+k8s-deployment-controller は、主にKubernetesの機能をエッジネットワーククラスター環境で利用して、異なる端末間で、（複数の）マイクロサービスのデプロイを制御できるようにするマイクロサービスです。
 
 ## 動作環境
 
-k8s-deployment-controller は、aion-core のプラットフォーム上での動作を前提としています。 使用する際は、事前に下記の通り AION の動作環境を用意してください。
+k8s-deployment-controller は、AION のプラットフォーム上での動作を前提としています。 使用する際は、事前に下記の通り AION の動作環境を用意してください。
 
 - Kubernetes
 - AION のリソース   
